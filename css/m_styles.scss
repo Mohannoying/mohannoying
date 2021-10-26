@@ -1,22 +1,30 @@
 $head: "Old Standard TT", serif;
 $display1: 9rem;
 $body: "Fira Sans", sans-serif;
-$navbg: yellow;
-$navitemsz: 1.75rem;
-$navitemwt: 700;
+$blk: #141414;
+$navitemsz: 1.13rem;
+$wt7: 700;
+
+.navbar-brand, .nav-link{
+  font-family: $body !important;
+  font-weight: $wt7;
+  font-size: 1.13rem; //not applying to navbar-brand
+  color: $blk; //not applying to nav-link
+}
+
+.sec1{
+  padding-top: 3%;
+}
 
 .mainh {
   font-family: $head !important;
   font-size: $display1;
   line-height: 96%;
-  letter-spacing: -40%;
+  letter-spacing: -40%; //not applying
 }
 
 .container-fluid{
-  padding: 3% 15%;
-  // padding-top: 3%;
-  // padding-left: 15%;
-  // padding-right: 15%;
+  padding: 3% 15% !important;
 }
 
 
