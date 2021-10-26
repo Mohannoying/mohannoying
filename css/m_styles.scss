@@ -1,0 +1,34 @@
+$head: "Old Standard TT", serif;
+$body: "Fira Sans", sans-serif;
+$navbg: yellow;
+$navitemsz: 1.75rem;
+$navitemwt: 700;
+
+.mainh {
+  font-family: $head !important;
+}
+
+
+
+// *{
+//   font-family: $font-stack;
+// }
+//
+// .nav{
+//  height: 6rem;
+//  width: 100%;
+//  background-color: $navbg;
+//  padding: 8rem 8rem 0rem 8rem;
+//   .nav-item{
+//     display: inline;
+//     padding-right: 4rem;
+//     font-size: $navitemsz;
+//     font-weight: $navitemwt;
+//   }
+//   .nav-item-left{
+//     float: left;
+//   }
+//   .nav-item-right{
+//     float: right;
+//   }
+// }
