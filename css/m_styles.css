@@ -1,4 +1,7 @@
 .mainh {
-  font-family: "Old Standard TT", serif !important; }
+  font-family: "Old Standard TT", serif !important;
+  font-size: 9rem;
+  line-height: 96%;
+  letter-spacing: -40%; }
 
 /*# sourceMappingURL=m_styles.css.map */

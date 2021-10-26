@@ -1,4 +1,5 @@
 $head: "Old Standard TT", serif;
+$display1: 9rem;
 $body: "Fira Sans", sans-serif;
 $navbg: yellow;
 $navitemsz: 1.75rem;
@@ -6,6 +7,9 @@ $navitemwt: 700;
 
 .mainh {
   font-family: $head !important;
+  font-size: $display1;
+  line-height: 96%;
+  letter-spacing: -40%;
 }
 
 
