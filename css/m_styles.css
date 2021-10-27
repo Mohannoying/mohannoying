@@ -16,4 +16,15 @@
 .container-fluid {
   padding: 3% 15% !important; }
 
+.subh {
+  font-family: "Fira Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.13rem;
+  padding: 1.5rem 0 0 0; }
+
+.para {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.13rem;
+  padding: 1.5rem 0 0 0; }
+
 /*# sourceMappingURL=m_styles.css.map */
