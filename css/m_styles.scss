@@ -86,6 +86,9 @@ $wt7: 700;
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* Styles */
+  .para {
+    color: red;
+  }
 }
 
 /* iPads (portrait and landscape) ----------- */
