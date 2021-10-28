@@ -1,44 +1,105 @@
 $oldstd: "Old Standard TT", serif;
-$disp1: 9rem;
 $fira: "Fira Sans", sans-serif;
 $blk: #141414;
-$sz18: 1.13rem;
-$sz24: 1.5rem;
+$sz8px: 0.5rem;
+$sz16px: 1rem;
+$sz18px: 1.13rem;
+$sz24px: 1.5rem;
+$sz32px: 2rem;
+$sz48px: 3rem;
+$sz64px: 4rem;
+$sz72px: 4.5rem;
+$sz80px: 5rem;
+$sz144px: 9rem;
+$sz160px: 10rem;
+$sz168px: 10.5rem;
+$sz176px: 11rem;
+$sz184px: 11.5rem;
+$sz200px: 15rem;
 $wt3: 300;
 $wt5: 500;
 $wt7: 700;
 
+.navbar {
+  padding: $sz64px 0 $sz32px 0 !important;
+
 .navbar-brand, .nav-link {
   font-family: $fira !important;
   font-weight: $wt7;
-  font-size: $sz18; //not applying to navbar-brand
-  color: $blk; //not applying to nav-link
+  font-size: $sz18px !important;
+  color: $blk !important;
 }
 
-.sec1 {
-  padding-top: 3%;
+.nav-item {
+  padding: 0 $sz16px 0;
+}
+
 }
 
 .mainh {
   font-family: $oldstd !important;
-  font-size: $disp1;
+  font-size: $sz144px;
   line-height: 96%;
   letter-spacing: -0.33rem;
+  padding-top: $sz32px;
 }
 
 .container-fluid {
-  padding: 3% 15% !important;
+  padding: 0 15% !important;
 }
 
 .subh {
   font-family: $fira;
   text-transform: uppercase;
-  font-size: $sz18;
-  padding: $sz24 0 0 0;
+  font-size: $sz18px;
+  margin: $sz32px 0 $sz24px 0;
+}
+
+.description {
+  .para {
+    margin-bottom: $sz32px;
+  }
 }
 
 .para {
   font-family: $fira;
-  font-size: $sz18;
-  padding: $sz24 0 0 0;
+  font-size: $sz18px;
 }
+
+.stats {
+  // width: $sz160px;
+  font-family: $fira;
+  .stat {
+    width: $sz184px;
+    margin-right: $sz64px;
+  }
+  .statnum {
+    font-weight: $wt7 !important;
+    font-size: $sz48px;
+    display: flex;
+    align-items: flex-end;
+    font-feature-settings: 'pnum' on, 'onum' on !important;
+    font-variant-numeric: oldstyle-nums !important;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
+
